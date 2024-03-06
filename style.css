@@ -1,0 +1,229 @@
+body {
+    font-family: "Rajdhani", sans-serif;
+    background-color: var(--det-color);
+}
+
+.font-rajdhani {   
+    font-family: "Nova Square", sans-serif;
+}
+
+
+/* Variabili colori */
+:root {
+    --det-color: #ececec;
+    --sec-color: #C67F7F;
+    --acc-color: darkred;
+}
+
+/* testo */
+.tx-1 {
+    color: var(--det-color);
+}
+
+.tx-acc {
+    color: var(--acc-color);
+}
+
+.logo_nav {
+    width: 100px;
+}
+
+.font-size-nav {
+    font-size: 12px;
+}
+
+.my_hero {
+    background-image: url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 650px;
+}
+
+.titolo_hero {
+    font-size: 400%;
+    letter-spacing: 50px;
+}
+
+.fog {
+    height: 600px;
+    width: 100vw;
+    background: linear-gradient(to top, rgba(255,255,255,0) 20%,
+              rgba(255,255,255,1)), url(http://foo.com/image.jpg);
+}
+
+.sagoma_montagne {
+    filter: invert(7.1%);
+}
+
+.margine_row {
+    margin: auto;
+}
+
+.sez_mission {
+    background-color: var(--det-color);
+    padding: 100px 0px;
+}
+
+.mission {
+    margin: 0px 200px;
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+}
+
+.mission:before {
+    content: '"';
+    color: var(--acc-color);
+    font-size: 60px;
+    position: absolute;
+    top: -40px;
+    left: -25px;
+}
+
+.mission:after {
+    content: '"';
+    color: var(--acc-color);
+    font-size: 60px;
+    position: absolute;
+}
+
+.sez_card {
+    width: 150px;
+    align-items: center;
+}
+
+.card-text{
+    font-size: 10px;
+} 
+
+.borde-1 {
+    border-bottom: 3px solid var(--acc-color) !important;
+    width: 150px;
+  }
+
+.pallino {
+    width: 20px;
+    translate: 0px -11px;
+}
+
+.sez_call {
+    background-image: url(./media/trees2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 58vh;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.p_descrizione {
+    font-size: 15px;
+}
+
+.btn {
+    background-color: var(--acc-color);
+    color: white;
+    border-radius: 0px;
+    border: none;
+    font-size: 13px;
+    padding: 5px 30px;
+}
+
+.alberi_bassi {
+    width: 100%;
+}
+
+.bottone_call {
+    margin-top: 125px;
+} 
+
+.txt_timeline {
+    font-size: 13px;
+}
+
+.tree_single {
+    width: 500px;
+}
+
+.border_timeline {
+    border-left: 3px solid var(--acc-color);
+}
+
+.cerchio {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 2px solid var(--acc-color);
+    border-radius: 50%;
+    position: absolute;
+    left: -9px;
+}
+
+.timeline_tree {
+    background-image: url(./media/single.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img_team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--acc-color);
+    padding: 5px;
+}
+
+.descrizione_team {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.image_benefit {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--acc-color);
+    padding: 5px;
+}
+
+.testo_benefit {
+    font-size: 15px;
+}
+
+.sez_benefit {
+    background-image: url(./media/other.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.sez_footer {
+    background-color: var(--acc-color);
+    height: 250px;
+}
+
+.testo_footer {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
