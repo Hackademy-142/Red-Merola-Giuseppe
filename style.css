@@ -234,11 +234,20 @@ h2 {
     height: 70vh;
 }
 
+@media screen and (width <= 300px ) { 
+    .sez_benefit {
+        background-image: url(./media/other.png);
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        height: 80vh;
+    } 
+}
 
 
 .sez_footer {
     background-color: var(--acc-color);
-    height: 250px;
+    height: 250%;
 }
 
 .testo_footer {
