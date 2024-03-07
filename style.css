@@ -33,20 +33,48 @@ body {
 }
 
 .my_hero {
-    background-image: url(./media/switzerland-862870_1920.jpg);
+    /* background-image: url(./media/switzerland-862870_1920.jpg);
     background-position: center;
     background-size: cover;
-    width: 100vw;
-    height: 650px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
+.img_hero {
+    width: 100%;
+    height: 100%;
+}
+
+
 .titolo_hero {
-    font-size: 400%;
-    letter-spacing: 50px;
+    font-size: 20px;
+    letter-spacing: 25px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 576px) {
+    .titolo_hero {
+        font-size: 40px;
+        letter-spacing: 40px;
+        text-align: center;
+        margin-left: 20px;
+    } 
+}
+
+@media screen and (min-width: 992px) {
+    .titolo_hero {
+        font-size: 60px;
+        letter-spacing: 50px;
+        text-align: center;
+        margin-left: 20px;
+    } 
 }
 
 .fog {
-    height: 600px;
+    height: 80%;
     width: 100vw;
     background: linear-gradient(to top, rgba(255,255,255,0) 20%,
               rgba(255,255,255,1)), url(http://foo.com/image.jpg);
@@ -66,7 +94,8 @@ body {
 }
 
 .mission {
-    margin: 0px 200px;
+    /* width: 100vw; */
+    margin: 0px 100px;
     font-size: 15px;
     font-style: italic;
     position: relative;
@@ -111,8 +140,12 @@ body {
     background-image: url(./media/trees2.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
-    height: 58vh;
+    background-size: cover;
+    height: 40vh;
+}
+
+.alberi_bianchi {
+    width: 100%;
 }
 
 h2 {
@@ -130,15 +163,14 @@ h2 {
     border: none;
     font-size: 13px;
     padding: 5px 30px;
+    width: 150px;
+    height: 30px;
 }
 
 .alberi_bassi {
     width: 100%;
 }
 
-.bottone_call {
-    margin-top: 125px;
-} 
 
 .txt_timeline {
     font-size: 13px;
@@ -150,6 +182,7 @@ h2 {
 
 .border_timeline {
     border-left: 3px solid var(--acc-color);
+    position: relative;
 }
 
 .cerchio {
@@ -167,6 +200,7 @@ h2 {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 50%;
 }
 
 .img_team {
@@ -197,8 +231,10 @@ h2 {
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 70vh;
 }
+
+
 
 .sez_footer {
     background-color: var(--acc-color);
